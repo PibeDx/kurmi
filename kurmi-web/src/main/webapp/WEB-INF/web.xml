@@ -2,7 +2,10 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
-	<display-name>cuychi-web</display-name>
+	<display-name>kurmi-web</display-name>
+	<welcome-file-list>
+		<welcome-file>principal.jsp</welcome-file>
+	</welcome-file-list>
 
 	<servlet>
 		<servlet-name>Jersey REST Service</servlet-name>
@@ -25,6 +28,13 @@
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
 
-	
-	
+	<servlet>
+		<servlet-name>librosController</servlet-name>
+		<servlet-class>net.abcdroid.kurmi.w.controller.LibrosController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>librosController</servlet-name>
+		<url-pattern>/librosController</url-pattern>
+	</servlet-mapping>
+
 </web-app>
