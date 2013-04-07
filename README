@@ -1,10 +1,12 @@
-Pequeña aplicación que permite registrar Libros en un smartphone ANDROID y que soporta sincronización, el objetivo de este proyecto es netamente educativo
-pero no descarto el continuar con su implementación para luego quizas donarlo, si deseas colaborar con alguna idea o simplemente agregar mas funcionalidades, sabes 
-que puedes hacerlo ( Tienes para elegir ANDROID O WEB APP ) y si deseas conversar del tema, puedes ponerte en contacto conmigo en todo momento mi correo mason.xp@gmail.com
+PequeÃ±a aplicaciÃ³n que permite el registro de Libros en un smartphone ANDROID y  cuenta ademas con la capacidad de  sincronizar dichos datos con una base de datos MySQL, 
+si deseas colaborar en esta aplicaciÃ³n tienes para elegir entre 2: ANDROID O WEB APP, si tienes alguna sugerencia o consulta sobre este desarrollo puedes ponerte en contacto conmigo :
 
-Sobre esta aplicación, te comento que se divide en 2 partes :
+ **** mi correo es : mason.xp@gmail.com
+ **** mi facebook:   https://www.facebook.com/meison.chirinos (por si deseas seguirme)
+
+Sobre esta aplicaciÃ³n, ya lo mencionÃ© un poco igual lo listo otra vez:
 
 - Cliente ANDROID
 - Backend WEB APP (Restful WS)
 
-Para el desarrollo del backend se consideró Servicios Restful (sincronización de datos) combinado con JSON.
+Para el desarrollo del backend se considerÃ³ usar Servicios Restful con JSON.
